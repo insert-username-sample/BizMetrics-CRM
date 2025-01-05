@@ -1,0 +1,36 @@
+.reports-container {
+      padding: 20px;
+    }
+
+    .filter-options {
+      margin-bottom: 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .filter-options select {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .report-table-container {
+      overflow-x: auto;
+    }
+
+    .report-table-container table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .report-table-container th,
+    .report-table-container td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    .report-table-container th {
+      background-color: #f2f2f2;
+    }
